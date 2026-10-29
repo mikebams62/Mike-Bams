@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Mike Bams Book Marketing</title>
+<meta name="description" content="Email Mike Bams for a documented, no-pressure book marketing consultation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-container">
+    <a href="index.html" class="logo"><i class="fa-solid fa-feather-pointed"></i><span>Mike Bams</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="authors.html">Testimonials</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-primary nav-cta">Email Me</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="breadcrumb">Contact</p>
+    <h1>Let's Talk About Your Book — By Email</h1>
+    <p>I run my entire process through email to keep everything clear, documented, and easy to reference. No calls, no meetings — just straightforward communication.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-grid">
+
+    <!-- CONTACT INFO -->
+    <div class="contact-info-card" data-aos="fade-right">
+      <h3>Get In Touch</h3>
+      <p>Everything I do is documented through email — no calls, no meetings, no scheduling friction. Just clear, professional communication you can reference anytime.</p>
+
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <div>
+          <h4>Email</h4>
+          <a href="mailto:mikebams62@gmail.com">mikebams62@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <i class="fa-solid fa-clock"></i>
+        <div>
+          <h4>Response Time</h4>
+          <p>Within 24–48 hours</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <i class="fa-solid fa-earth-americas"></i>
+        <div>
+          <h4>Availability</h4>
+          <p>Worldwide (Remote, Email-Only)</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <i class="fa-solid fa-shield-halved"></i>
+        <div>
+          <h4>Why Email-Only?</h4>
+          <p>Keeps every strategy, update, and agreement documented and easy to reference.</p>
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div class="contact-form" data-aos="fade-left">
+      <h3 style="margin-bottom:10px;">Send Me Your Book Details</h3>
+      <p style="color:var(--gray-text); font-size:0.92rem; margin-bottom:30px;">Fill out the form below and I'll respond by email within 24–48 hours with honest feedback and next steps.</p>
+
+      <form id="contactForm" action="https://formspree.io/f/xvkkqwlw" method="POST">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="book_title">Book Title</label>
+            <input type="text" id="book_title" name="book_title" placeholder="The title of your book">
+          </div>
+          <div class="form-group">
+            <label for="genre">Genre</label>
+            <select id="genre" name="genre">
+              <option value="">Select Genre</option>
+              <option value="Fiction - Thriller/Mystery">Thriller / Mystery</option>
+              <option value="Fiction - Romance">Romance</option>
+              <option value="Fiction - Fantasy/Sci-Fi">Fantasy / Sci-Fi</option>
+              <option value="Fiction - YA">Young Adult</option>
+              <option value="Fiction - Historical">Historical Fiction</option>
+              <option value="Non-Fiction - Business">Business</option>
+              <option value="Non-Fiction - Self-Help">Self-Help</option>
+              <option value="Non-Fiction - Memoir">Memoir</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="stage">Current Stage</label>
+            <select id="stage" name="stage">
+              <option value="">Select Stage</option>
+              <option value="Not Yet Published">Not Yet Published</option>
+              <option value="Published - Needs More Sales">Published - Needs More Sales</option>
+              <option value="Launching Soon">Launching Soon</option>
+              <option value="Ongoing Series">Ongoing Series</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="budget">Budget Range (Optional)</label>
+            <select id="budget" name="budget">
+              <option value="">Select Range</option>
+              <option value="Under $500">Under $500</option>
+              <option value="$500 - $1,500">$500 - $1,500</option>
+              <option value="$1,500 - $5,000">$1,500 - $5,000</option>
+              <option value="$5,000+">$5,000+</option>
+              <option value="Not Sure Yet">Not Sure Yet</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">What Are You Hoping To Achieve?</label>
+          <textarea id="message" name="message" placeholder="Tell me about your book, your goals, and any challenges you're currently facing..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+          <i class="fa-solid fa-paper-plane"></i> Send My Details
+        </button>
+
+        <div class="form-success" id="formSuccess">
+          <i class="fa-solid fa-circle-check" style="font-size:1.3rem;"></i>
+          <span>Thanks for reaching out! I'll review your details and respond by email within 24-48 hours.</span>
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="cta-banner" data-aos="zoom-in">
+      <h2>No Calls. No Meetings. Just Honest Advice In Writing.</h2>
+      <p>Send me your book details today, and I'll get back to you with a clear, documented next step.</p>
+      <a href="mailto:mikebams62@gmail.com" class="btn btn-primary">Email Me Directly <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <a href="index.html" class="logo footer-logo"><i class="fa-solid fa-feather-pointed"></i><span>Mike Bams</span></a>
+      <p>Helping authors turn great books into bestselling brands through strategic, fully-documented marketing.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Quick Links</h4>
+      <a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="authors.html">Testimonials</a>
+    </div>
+    <div class="footer-col"><h4>Services</h4>
+      <a href="services.html">Amazon Ads & SEO</a><a href="services.html">Book Launch Strategy</a><a href="services.html">Author Branding</a><a href="services.html">Book Club Outreach</a>
+    </div>
+    <div class="footer-col"><h4>Get In Touch</h4>
+      <p><i class="fa-solid fa-envelope"></i> mikebams62@gmail.com</p>
+      <p><i class="fa-solid fa-clock"></i> Response within 24-48 hrs</p>
+      <p><i class="fa-solid fa-location-dot"></i> Worldwide (Remote, Email-Only)</p>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>&copy; 2024 Mike Bams Book Marketing. All Rights Reserved.</p></div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
